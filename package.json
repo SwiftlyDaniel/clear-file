@@ -3,7 +3,7 @@
 	"name": "clear-file",
 	"displayName": "Clear File",
 	"description": "Clear the contents of the opened file",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"icon": "icon.png",
 	"publisher": "swiftlydaniel",
 	"repository": {
