@@ -1,0 +1,13 @@
+# VSCode Clear File Extension
+
+- Prefer TypeScript
+- Follow VS Code extension guidelines: https://code.visualstudio.com/api
+- Use the vscode module for interacting with VS Code APIs.
+- Package.json should include publisher, name, version, engines, activationEvents, and contributes fields.
+- Follow ESLint rules
+- When suggesting code, ensure it aligns with VS Code extension APIs (e.g., vscode.commands, vscode.window).
+- Suggest registering commands in package.json under contributes.commands.
+- Prefer modular code: split large files into smaller, reusable modules.
+- When modifying package.json, ensure activationEvents and contributes are updated to match code changes.
+- Ensure compatibility with the engines.vscode version specified in package.json.
+- Always try to keep my dependencies and the VS Code engine up to date.
