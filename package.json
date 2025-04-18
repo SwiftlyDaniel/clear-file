@@ -51,7 +51,7 @@
 		"pretest": "npm run compile && npm run lint",
 		"lint": "eslint src",
 		"test": "vscode-test",
-		"deploy": "vsce publish --yarn",
+		"deploy": "vsce publish",
 		"deploy:ovsx": "ovsx publish"
 	},
 	"devDependencies": {
